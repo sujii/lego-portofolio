@@ -1,0 +1,41 @@
+# Logs
+logs
+*.log
+
+# Dependency directories
+node_modules
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variable files
+.env
+
+# Next.js build output
+.next
+
+# yarn v4 (berry)
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# turbo generated files
+.turbo
+
+# dists
+!apps/api-client/dist
+
+# WIP
+apps/api-client/*
+apps/web/*
+packages/styles/*
+packages/typescript-config/*
+packages/ui/*
+docs/*.md
+.*
+!.gitignore
+!.node-version
