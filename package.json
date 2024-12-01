@@ -1,15 +1,11 @@
 {
-  "name": "@repo/lego-portofolio",
-  "private": true,
+  "name": "@sujii/lego-portofolio",
   "version": "0.9.1",
-  "scripts": {
-    "build": "turbo build",
-    "dev": "turbo dev",
-    "lint": "turbo lint",
-    "format": "turbo lint -- --fix",
-    "web": "yarn workspace @repo/lego-portofolio-web",
-    "api-client": "yarn workspace @repo/lego-portofolio-api-client",
-    "pritty": "prettier --write \"**/*.{ts,tsx,md}\""
+  "dependencies": {
+    "@repo/lego-portofolio-api-client": "workspace:*",
+    "@repo/lego-portofolio-typescript-config": "workspace:*",
+    "@repo/lego-portofolio-ui": "workspace:*",
+    "@repo/lego-portofolio-web": "workpace:*"
   },
   "devDependencies": {
     "prettier": "^3.4.1",
@@ -18,10 +14,21 @@
   "engines": {
     "node": ">=20.0.0"
   },
+  "lisence": "GPL-3.0 license",
+  "packageManager": "yarn@4.5.3",
+  "private": true,
+  "scripts": {
+    "api-client": "yarn workspace @repo/lego-portofolio-api-client",
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "format": "turbo lint -- --fix",
+    "lint": "turbo lint",
+    "prepare": "husky install",
+    "pritty": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "web": "yarn workspace @repo/lego-portofolio-web"
+  },
   "workspaces": [
     "apps/*",
     "packages/*"
-  ],
-  "lisence": "GPL-3.0 license",
-  "packageManager": "yarn@4.5.3"
+  ]
 }
