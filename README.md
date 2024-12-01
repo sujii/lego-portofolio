@@ -54,4 +54,4 @@ This Product is **ProtoTypes** of [LEGOJS](https://github.com/VVVVISE/legojs).
 
 ## 2. License
 
-GNU GENERAL PUBLIC LICENSE
+GPL-3.0 license
