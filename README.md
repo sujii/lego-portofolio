@@ -6,8 +6,6 @@ This Product is **ProtoTypes** of [LEGOJS](https://github.com/VVVVISE/legojs).
 
 ## NOW UNDER WIP - alpha or less:
 
-Please see [Issues](https://github.com/sujii/lego/issues).
-
 ## 1. Tech
 
 ### CoreMiddleWares:
@@ -35,7 +33,6 @@ Please see [Issues](https://github.com/sujii/lego/issues).
 ### Schemes:
 
 - GraphQL
-    - [MockData/GeneratdCodesSamples](https://github.com/sujii/lego/tree/d59c9a72169d656347b02bec54ffb582cb4a09a7/apps/api-client/dist)
 
 ### Apps:
 
@@ -91,4 +88,4 @@ yarn build
 
 ## License
 
-THE UNLICENSED
+GNU GENERAL PUBLIC LICENSE
