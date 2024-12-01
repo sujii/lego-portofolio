@@ -52,40 +52,6 @@ This Product is **ProtoTypes** of [LEGOJS](https://github.com/VVVVISE/legojs).
 4. TypeScriptConfig
 5. **[OOUI](https://github.com/sujii/ooui)**
 
-## 2. Setup
-
-### Install yarn@4.4.1 (berry):
-
-```sh
-corepack enable
-yarn init -2
-yarn set version stable
-```
-
-### Create Workspaces, with Setup Developpers Specifications (with [Doppler](https://www.doppler.com/)):
-
-```sh
-pwd
-$HOME/Projects/lego
-
-make init
-```
-
-## 3. Build
-
-```sh
-pwd
-$HOME/Projects/lego
-
-# To Build, All Apps and Packages.
-yarn build
-```
-
-## 4. Directives
-
-- The arrangement on the directory does not imply the structure of the package as it is. 
-- **Packages have a domain and are invoked as a thin domain model** with up to two layers.
-
-## License
+## 2. License
 
 GNU GENERAL PUBLIC LICENSE
