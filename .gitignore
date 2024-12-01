@@ -30,12 +30,5 @@ node_modules
 !apps/api-client/dist
 
 # WIP
-apps/api-client/*
-apps/web/*
-packages/styles/*
-packages/typescript-config/*
-packages/ui/*
+# apps/web/*
 docs/*.md
-.*
-!.gitignore
-!.node-version
