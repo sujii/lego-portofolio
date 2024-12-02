@@ -1,12 +1,12 @@
 {
-  "name": "@repo/lego-portofolio",
-  "version": "0.9.1",
+  "name": "@vvvvise/lego-portofolio",
+  "version": "0.1.1",
   "dependencies": {
-    "@repo/lego-portofolio-api-client": "workspace:*",
-    "@repo/lego-portofolio-prisma-app": "workspace:*",
-    "@repo/lego-portofolio-typescript-config": "workspace:*",
-    "@repo/lego-portofolio-ui": "workspace:*",
-    "@repo/lego-portofolio-web": "workpace:*"
+    "@vvvvise/lego-api-client": "workspace:*",
+    "@vvvvise/lego-prisma-app": "workspace:*",
+    "@vvvvise/lego-typescript-config": "workspace:*",
+    "@vvvvise/lego-ui": "workspace:*",
+    "@vvvvise/lego-web": "workpace:*"
   },
   "devDependencies": {
     "prettier": "^3.4.1",
@@ -19,15 +19,15 @@
   "packageManager": "yarn@4.5.3",
   "private": true,
   "scripts": {
-    "api-client": "yarn workspace @repo/lego-portofolio-api-client",
-    "prisma-app": "yarn workspace @repo/lego-portofolio-prisma-app",
+    "api-client": "yarn workspace @vvvvise/lego-api-client",
+    "prisma-app": "yarn workspace @vvvvise/lego-prisma-app",
     "build": "turbo build",
     "dev": "turbo dev",
     "format": "turbo lint -- --fix",
     "lint": "turbo lint",
     "prepare": "husky install",
     "pritty": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "web": "yarn workspace @repo/lego-portofolio-web"
+    "web": "yarn workspace @vvvvise/lego-web"
   },
   "workspaces": [
     "apps/*",

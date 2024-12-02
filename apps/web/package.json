@@ -1,5 +1,5 @@
 {
-  "name": "@repo/lego-portofolio-web",
+  "name": "@vvvvise/lego-web",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,9 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@repo/lego-portofolio-typescript-config": "workspace:*",
-    "@repo/lego-portofolio-ui": "workspace:*",
     "@sentry/nextjs": "^8",
+    "@vvvvise/lego-typescript-config": "workspace:*",
+    "@vvvvise/lego-ui": "workspace:*",
     "next": "14.2.7",
     "react": "^18",
     "react-dom": "^18"

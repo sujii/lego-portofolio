@@ -3,7 +3,7 @@
   "exclude": ["node_modules"],
   "compilerOptions": {
     "paths": {
-      "@repo/*": ["./*"]
+      "@vvvvise/*": ["./*"]
     }                               /* Skip type checking all .d.ts files. */
   }
 }
