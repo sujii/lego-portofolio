@@ -2,14 +2,21 @@
 # 1. INSTALL
 # ---------
 
+berry:
+	@corepack enable
+	@yarn init -2
+	@yarn set version stable
+	@echo '💬 [APP] Initialized yarn@berry ✨'
+
 init:
-	@yarn unlink && yarn link && yarn
-	@doppler login
+	@yarn unlink && yarn link
+	@yarn install
 	@echo '💬 [APP] Workpaces Initialized ✨'
 
-clean:
-	@yarn unlink && yarn link && yarn
-	@echo '💬 [APP] Cleanuped Workspaces ✨'
+doppler:
+	@brew install dopplerhq/cli/doppler
+	@doppker login
+	@echo '💬 [APP] Installed DopplerCLI ✨'
 
 setup:
 	@doppler setup

@@ -55,7 +55,7 @@ This Product is **ProtoTypes** of [VVVVISE/LEGOJS](https://github.com/VVVVISE/le
 5. lego-storybook-server
 6. lego-type-script-config
 7. lego-tests
-8. **[OOUI](https://github.com/sujii/ooui)**
+8. **[OOUI](https://github.com/repo/ooui)**
 
 ## 2. PackagedDirectives
 
