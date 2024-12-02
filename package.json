@@ -1,8 +1,9 @@
 {
-  "name": "@sujii/lego-portofolio",
+  "name": "@repo/lego-portofolio",
   "version": "0.9.1",
   "dependencies": {
     "@repo/lego-portofolio-api-client": "workspace:*",
+    "@repo/lego-portofolio-prisma-app": "workspace:*",
     "@repo/lego-portofolio-typescript-config": "workspace:*",
     "@repo/lego-portofolio-ui": "workspace:*",
     "@repo/lego-portofolio-web": "workpace:*"
@@ -19,6 +20,7 @@
   "private": true,
   "scripts": {
     "api-client": "yarn workspace @repo/lego-portofolio-api-client",
+    "prisma-app": "yarn workspace @repo/lego-portofolio-prisma-app",
     "build": "turbo build",
     "dev": "turbo dev",
     "format": "turbo lint -- --fix",
