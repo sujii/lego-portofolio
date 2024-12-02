@@ -3,7 +3,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@repo/lego-portofolio-ui/*": ["./*"]
+      "@vvvvise/lego-ui/*": ["./*"]
     }
   },
   "include": ["**/*.ts", "**/*.tsx"],
